@@ -102,5 +102,4 @@ O Sexy Canvas explora desejos primitivos, como os instintos do Id (sexo, poder, 
 A abordagem freudiana complementa o entendimento de como esses desejos são equilibrados pelo Ego e Superego, influenciando o comportamento humano e o consumo.
 
 
-Se precisar de mais detalhes, posso expandir os pontos!
 
