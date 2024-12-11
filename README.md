@@ -109,28 +109,28 @@ Aqui está um exemplo para automatizar a criação da árvore de arquivos e past
 
 Estrutura de Pastas e Arquivos
 
-generative_agent_project/
-│
-├── app/
-│   ├── main.py              # Arquivo principal para a API FastAPI
-│   ├── requirements.txt     # Dependências do projeto
-│   └── Dockerfile           # Dockerfile para containerização do projeto
-│
-├── src/
-│   ├── agent.py             # Código do agente de IA Generativa
-│   ├── code_generation.py   # Módulo para gerar código
-│   ├── execution.py         # Módulo para executar o código na IDE online ou Docker
-│   └── feedback.py          # Módulo para fornecer feedback ao usuário
-│
-├── tests/
-│   ├── test_agent.py        # Testes para o agente de IA
-│   ├── test_code_generation.py  # Testes para geração de código
-│   └── test_execution.py    # Testes para execução do código
-│
-├── docs/
-│   └── architecture.md      # Documentação sobre a arquitetura e implementação
-│
-└── README.md                # Arquivo README com explicações sobre o projeto
+        generative_agent_project/
+        │
+        ├── app/
+        │   ├── main.py              # Arquivo principal para a API FastAPI
+        │   ├── requirements.txt     # Dependências do projeto
+        │   └── Dockerfile           # Dockerfile para containerização do projeto
+        │
+        ├── src/
+        │   ├── agent.py             # Código do agente de IA Generativa
+        │   ├── code_generation.py   # Módulo para gerar código
+        │   ├── execution.py         # Módulo para executar o código na IDE online ou Docker
+        │   └── feedback.py          # Módulo para fornecer feedback ao usuário
+        │
+        ├── tests/
+        │   ├── test_agent.py        # Testes para o agente de IA
+        │   ├── test_code_generation.py  # Testes para geração de código
+        │   └── test_execution.py    # Testes para execução do código
+        │
+        ├── docs/
+        │   └── architecture.md      # Documentação sobre a arquitetura e implementação
+        │
+        └── README.md                # Arquivo README com explicações sobre o projeto
 
 1. Criando a Árvore de Diretórios e Arquivos
 
@@ -260,8 +260,19 @@ Este projeto tem como objetivo criar um agente de IA generativa que:
 
 - Recebe a demanda do usuário via API.
 - Gera o código com base na descrição fornecida.
-- Executa o código gerado em uma IDE online ou local.
-- Fornece feedback ao usuário com base na execução do código.
+- Executa o código (chamada de api) gerado em uma IDE online ou local.
+- Itera recursivamente debugando e depurando erros até atingir e superar métricas
+- Fornece feedback ao usuário com base na execução do código aprovado para distribuição.
+
+## A vergonha alheia de receber e rodar código 1/2 boca foi internalizado.
+- agi code code execution #bard #gemini # gpt #saipienschat
+
+## motivaões: 
+
+1. ai generativa estatistica
+2. entrega: roteiro de filme block booster: devop senior coloca ponto ou virgula fora de lugar (codigo gpt compila) e derruba um avião quando chamado. ok.
+3. ja na vida real:.......
+
 
 ## Como rodar o projeto
 
